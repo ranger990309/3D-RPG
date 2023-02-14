@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00de289d3132a6d4fa53210464286adf, type: 3}
+  m_Name: King UnStart
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: f26fa8880b3aeef4b8516c82dc12f2a5, type: 3}
+    text: "\u6211\u9700\u8981\u4F60\u53BB\u8BA8\u4F10\u4F4D\u4E8E\u6B64\u5730\u5DE6\u4E0A\u65B9\u7684\u517D\u4EBA\uFF0C\u5F53\u4F60\u5B8C\u6210\u4EFB\u52A1\uFF0C\u6211\u5C06\u5956\u52B1\u4F60\u4E00\u628A\u5DE8\u5251\u3002"
+    quest: {fileID: 11400000, guid: 80cfac371d67e1547a441d6da41dcb64, type: 2}
+    canExpand: 0
+    options:
+    - text: "\u662F\u7684\uFF0C\u6211\u5F88\u4E50\u610F\uFF01"
+      targetID: 
+      takeQuest: 1
+    - text: "\u62B1\u6B49\uFF0C\u6211\u8BA4\u4E3A\u6211\u4E0D\u8DB3\u4EE5\u6311\u6218\u8FD9\u540D\u654C\u4EBA\u3002"
+      targetID: 
+      takeQuest: 0

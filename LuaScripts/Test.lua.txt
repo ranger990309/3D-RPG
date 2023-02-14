@@ -1,0 +1,11 @@
+
+xlua.private_accessible(CS.Change)
+xlua.hotfix(CS.Change,'Update',function(self)
+    if(CS.UnityEngine.Input.GetKeyDown(CS.UnityEngine.KeyCode.J)) then
+        self:Create()
+    end
+    if(CS.UnityEngine.Input.GetKeyDown(CS.UnityEngine.KeyCode.K)) then
+        self:Create2()
+    end
+end)
+
